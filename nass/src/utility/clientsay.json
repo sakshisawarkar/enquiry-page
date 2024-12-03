@@ -1,0 +1,27 @@
+[
+    {
+      "image": "./c_logo.png",
+      "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "image_1": "./client.png",
+      "c_name": "Lorem Ipsum",
+      "c_desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+         
+    },
+    {
+      "image": "./c_logo.png",
+      "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "image_1": "./client.png",
+      "c_name": "Lorem Ipsum",
+      "c_desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+
+    },
+    {
+      "image": "./c_logo.png",
+      "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "image_1": "./client.png",
+      "c_name": "Lorem Ipsum",
+      "c_desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+      
+    }
+  ]
+  

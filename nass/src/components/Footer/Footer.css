@@ -1,0 +1,18 @@
+.f-menufoot a {
+    display: block;
+}
+.f-menufoot a {
+    display: block;
+    padding: 15px 40px;
+}
+.foot-social-title {
+    font-size: 20px !important;
+}
+.foot-social-icon a {
+    font-size: 35px;
+    padding: 10px 20px 10px 0px;
+}
+.foot-logo img {
+    width: 60%;
+    padding: 20px 20px 20px 0px;
+}

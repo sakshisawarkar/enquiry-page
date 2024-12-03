@@ -1,0 +1,89 @@
+.h-wrapper {
+    color: #000;
+    background-color: #fff;
+}
+
+.h-container {
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.h-menu {
+    gap: 2.5rem;
+    display: flex;
+}
+
+.apt-btn a {
+    color: #fff;
+}
+
+.h-container img {
+    width: 15%;
+}
+
+/* Hamburger menu styles */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Change bars to a cross when the menu is open */
+.hamburger-menu.active .bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 6px;
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+    transform: rotate(-58deg);
+    position: relative;
+    top: -16px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .h-menu {
+        display: none !important;
+        flex-direction: column;
+        position: absolute;
+        top: 75px;
+        right: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        gap: 10px;
+        border-radius: 5px;
+    }
+    .h-container img {
+        width: 25%;
+    }
+    .h-menu.open {
+        display: flex !important;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .h-menu a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .h-menu a:hover {
+        color: #0056b3;
+    }
+}

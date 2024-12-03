@@ -1,0 +1,51 @@
+.client_1 img {
+    width: 100%;
+}
+.client_1 .per-detail {
+    font-size: 13px;
+    font-style: italic;
+}
+.client_1 .image-container img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.client_1 .per-name {
+    font-size: 15px;
+    font-style: italic;
+}
+.c-card {
+    padding: 30px;
+    background: #4286a614;
+    border-radius: 10px;
+    transition: .5s;
+}
+.c-button {
+    position: absolute;
+    gap: 1rem;
+    left: 45%;
+    bottom: 0px;
+    z-index: 999;
+}
+.c-button button {
+    font-size: 1.4rem;
+    padding: 0.3rem 0.9rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: #006496;
+    cursor: pointer;
+}
+.c-button button:hover {
+    color: #fff;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+.c-slider {
+    margin-top: -50px;
+}
+.c-card:hover {
+    background: #4286a614;
+    border-radius: 10px;
+    transition: .5s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}

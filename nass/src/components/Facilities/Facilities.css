@@ -1,0 +1,236 @@
+.f-container {
+    overflow: hidden !important;
+    width: 1200px !important;
+}
+.f-wrapper {
+    margin-top: -50px;
+}
+.f-head {
+    margin-bottom: 2rem;
+    padding: 30px;
+}
+.work-w-us p.secondaryText {
+    padding: 30px 20px 20px 0px;
+}
+/* .f-card {
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    border: 1px solid #006496;
+    transition: all 300ms ease-in;
+    height: 450px;
+} */
+.f-card {
+    gap: 0.6rem;
+    padding: 1rem;
+    max-width: max-content;
+    margin: auto;
+    border: 1px solid #00649645;
+    transition: all 300ms ease-in;
+    border-radius: 5px;
+}
+.f-card>img {
+    width: 100%;
+    border-radius: 10px;
+    max-width: 22rem;
+    height: 150px;
+}
+.f-card>span>h3 {
+    font-size: 1.5rem; 
+    text-align: left;
+    color: #4286a6;
+}
+.f-card>span>p {
+    font-size: 15px;
+    width: 100%;
+    text-align: justify;
+}
+.f-card:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    /* background: linear-gradient(#006496, #90bd1e67, #006496); */
+    border: none;
+    transition-delay: 10s;
+    box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.5);
+    transition: all 300ms ease-in;
+    transform: scale(1.03);
+}
+.client-g-img img {
+    width: 100%;
+    height: 100px;
+    padding: 25px;
+    border: 1px solid #bad5e352;
+    border-radius: 10px;
+}
+.client-g-img:hover  {
+    background: #bad5e329;
+}
+.client-g-img {
+    padding: 10px;
+}
+.client-g-img:hover .client-g-img img {
+    border: 1px solid #bad5e3;
+    border-radius: 10px;
+}
+.c-client-cont {
+    padding: 29px 0px;
+}
+.f-card:active {
+    transition: 1s;
+    transform: scale(1.1);
+    background: #90bd1e67;
+}
+.f-card:hover span {
+    color: #fff;
+}
+.swiper-horizontal {
+    overflow: visible !important;
+}
+.swiper-wrapper {
+    overflow: visible;
+    /* transform: unset !important; */
+}
+
+/* .f-button {
+    position: absolute;
+    gap: 1rem;
+    top: -4rem;
+    right: 1%;
+}*/
+    .f-button {
+    position: absolute;
+    gap: 1rem;
+    right: 40px;
+    bottom: -62px;
+} 
+/* .f-button button {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEEEFF;
+    cursor: pointer;
+} */
+.f-button button {
+    font-size: 1.4rem;
+    padding: 0.3rem 0.9rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: #006496;
+    cursor: pointer;
+}
+.f-button button:hover {
+    color: #fff;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+.work-w-us-desc {
+    text-align: center !important;
+}
+.ourdoc-right {
+    padding: 0 20px;
+}
+.r-work-w-us {
+    background-color: #fff;
+    z-index: 999;
+    position: relative;
+}
+.client-imges img {
+    width: 100%;
+    height: auto;
+}
+.client-imges {
+    padding: 10px;
+}
+.ourdoc-left.paddings {
+    padding: 25px 0px 60px 0px;
+}
+
+
+#form {
+    max-width: 700px;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .form-field {
+    display: flex;
+    margin: 0 0 1rem 0;
+  }
+  label, input {
+    width: 70%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+  label {
+    text-align: right;
+    width: 100%;
+  }
+  input {
+    border: 2px solid #aaa;
+    border-radius: 2px;
+  }
+  .client img {
+    width: 90%;
+}
+.client .per-name {
+    font-size: 15px;
+    font-style: italic;
+}
+.client .per-detail {
+    font-size: 13px;
+    font-style: italic;
+}
+.client .image-container img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+
+/* form */
+
+.form-group {
+    /* display: flex; */
+    padding: 15px;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+}
+.form-group label {
+    text-align: start;
+}
+.r-form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #bad5e3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.r-form form {
+    width: 90%;
+}
+.abt-btn {
+    width: 100%;
+}
+.submit-button {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 991px) {
+    .form-group {
+        display: block !important;
+    }
+}
